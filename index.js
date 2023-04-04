@@ -4,7 +4,7 @@ const fs = require('fs');
 
 // TODO: Create an array of questions for user input
 //const questions = [];
-const generateREADME = ({ title, description, installation, usage, contributing, tests, github, email}) =>
+const generateREADME = ({ title, description, installation, usage, license, contributing, tests, github, email}) =>
     `<!DOCTYPE html>`
 
 inquirer
@@ -28,6 +28,11 @@ inquirer
             type: 'input',
             message: 'Please describe usage information.',
             name: 'usage',
+        },
+        {
+            type: 'XXXX',
+            message: 'Please select a license type.',
+            name: 'license',
         },
         {
             type: 'input',
