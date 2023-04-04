@@ -46,7 +46,7 @@ inquirer
         },
         {
             type: 'input',
-            message: 'What is your GitHub URL?',
+            message: 'What is your GitHub username?',
             name: 'github',
         },
         {
