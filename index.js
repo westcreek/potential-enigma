@@ -8,55 +8,55 @@ const generateREADME = ({ title, description, installation, usage, license, cont
     `# ${title} 
 
 
-    ## Description
-    ```${description}```
+## Description
+${description}
     
     
-    ## Table of Contents
+## Table of Contents
     
-    > * [Installation](#installation)
-    >
-    > * [Usage](#usage)
-    >
-    > * [License](#license)
-    >
-    > * [Contributing](#contributing)
-    >
-    > * [Tests](#tests)
-    >
-    > * [Questions](#questions)
-    
-    
-    ## Installation
-    ```${installation}```
+> * [Installation](#installation)
+>
+> * [Usage](#usage)
+>
+> * [License](#license)
+>
+> * [Contributing](#contributing)
+>
+> * [Tests](#tests)
+>
+> * [Questions](#questions)
     
     
-    ## Usage
-    ```${usage}```
+## Installation
+${installation}
     
     
-    ## License
-    ```${license}```
+## Usage
+${usage}
     
     
-    ## Contributing
-    ```${contributing}```
+## License
+${license}
     
     
-    ## Tests
-    ```${tests}```
+## Contributing
+${contributing}
     
     
-    ## Questions
-    [Please reach out to me at my github here.](https://github.com/${github})
+## Tests
+${tests}
     
-    If you have any question, please email me:
-    ```${email}```
     
-    ---
+## Questions
+[Please reach out to me at my github here.](https://github.com/${github})
     
-    © 2023 westcreek. Confidential and Proprietary. All Rights Reserved.
-    `
+If you have any question, please email me:
+${email}
+    
+---
+    
+© 2023 westcreek. Confidential and Proprietary. All Rights Reserved.
+    `;
 
 inquirer
     .prompt([
